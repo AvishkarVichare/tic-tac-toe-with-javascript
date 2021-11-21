@@ -1,0 +1,16 @@
+#gameCont{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+    position: relative;
+
+}
+
+.box{
+    border: 2px solid black;
+}
